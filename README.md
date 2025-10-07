@@ -14,5 +14,5 @@ The Shopify Dev MCP connects your AI assistant to Shopify's development resource
 - [Scaffold a Shopify app](https://shopify.dev/docs/apps/build/scaffold-app)
 - [Shopify CLI](https://shopify.dev/docs/apps/tools/cli)
 - [Polaris Web Components](https://shopify.dev/docs/api/app-home/polaris-web-components)
-- [Shopify Admin GraphQL API](https://shopify.dev/docs/api/admin-graphql) 
+- [Shopify Admin GraphQL API](https://shopify.dev/docs/api/admin-graphql)
 - [Shopify Functions](https://shopify.dev/docs/api/functions)
