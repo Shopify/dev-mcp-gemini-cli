@@ -1,18 +1,40 @@
-# Shopify Dev MCP - Gemini extension
+# Shopify Dev MCP - Gemini CLI Extension
 
-The Shopify Dev MCP connects your AI assistant to Shopify's development resources.  Please see the [Shopify Dev MCP documentation](https://shopify.dev/docs/apps/build/devmcp).
+This extension connects the Gemini CLI to the Shopify Dev MCP server, giving Gemini access to Shopify's dev docs, API schemas, and development guidance. Ask questions and build on top of  Shopify APIs without leaving your terminal.
 
-## Installing as a Gemini CLI extension
+**What you get:**
 
-1. Install [Gemini CLI](https://google-gemini.github.io/gemini-cli/#-installation).
-2. Install the Shopify Dev MCP as a Gemini extension: `gemini extensions install https://github.com/shopify/dev-mcp-gemini-cli`
+- Search Shopify docs and API schemas on the fly
+- Generate code for GraphQL Admin API, Storefront API, Functions, Liquid, and more
+- Validate components, GraphQL, and theme files to ensure they're free of hallucinations
+- Build Shopify apps faster with context-aware assistance
+
+## Requirements
+
+* [Gemini CLI](https://google-gemini.github.io/gemini-cli/#-installation)
+* Node.js 18+
+
+## Installation
+
+```bash
+gemini extensions install https://github.com/shopify/dev-mcp-gemini-cli
+```
+
+We also recommend [installing the Shopify CLI](https://shopify.dev/docs/api/shopify-cli#installation) to make it easier to build and test your app.
+
+## Usage
+
+Once installed, you can give Gemini questions and tasks like:
+
+- "Create a validation Function requiring minimum 5 items in cart before checkout."
+- "How do I create a product using the Admin API?"
+- "Show me an example of a webhook subscription."
+- "What fields are available on the Order object?"
+
+The MCP server automatically searches Shopify's documentation to provide accurate responses.
 
 ## Resources
 
 - [Shopify Dev MCP documentation](https://shopify.dev/docs/apps/build/devmcp)
-- [Intro to Shopify apps](https://shopify.dev/docs/apps/getting-started)
+- [Get started with Shopify apps](https://shopify.dev/docs/apps/getting-started)
 - [Scaffold a Shopify app](https://shopify.dev/docs/apps/build/scaffold-app)
-- [Shopify CLI](https://shopify.dev/docs/apps/tools/cli)
-- [Polaris Web Components](https://shopify.dev/docs/api/app-home/polaris-web-components)
-- [Shopify Admin GraphQL API](https://shopify.dev/docs/api/admin-graphql)
-- [Shopify Functions](https://shopify.dev/docs/api/functions)
